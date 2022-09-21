@@ -72,3 +72,22 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+
+###########################
+*.rsp
+.vs/
+.vscode/
+Binaries/
+Build/
+Config/
+Content/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+*.uproject
+*.cs
+*.ini
+CryptRaider.code-workspace
