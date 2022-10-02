@@ -6,7 +6,6 @@
 #include "Components/ActorComponent.h"
 #include "Mover.generated.h"
 
-
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class CRYPTRAIDER_API UMover : public UActorComponent
 {
@@ -36,7 +35,4 @@ public:
 	UPROPERTY(Category = "Move option", EditAnywhere)
 	bool Moved = false;
 
-	
-
-		
 };
